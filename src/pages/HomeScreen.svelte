@@ -1,5 +1,8 @@
 <script>
-import { FacebookAuthProvider } from "@firebase/auth";
-
+  import { FacebookAuthProvider } from "@firebase/auth";
 </script>
-<h1 class="text-center">Bienvenidos, esta es una simulacion, por FacebookAuthProvider, pase a productos/h1>
+
+<h1 class="text-center">
+  Bienvenidos, esta es una simulacion, por FacebookAuthProvider, pase a
+  productos
+</h1>

@@ -1,1 +1,5 @@
-<h1>Hola perro</h1>
+<script>
+import { FacebookAuthProvider } from "@firebase/auth";
+
+</script>
+<h1 class="text-center">Bienvenidos, esta es una simulacion, por FacebookAuthProvider, pase a productos/h1>

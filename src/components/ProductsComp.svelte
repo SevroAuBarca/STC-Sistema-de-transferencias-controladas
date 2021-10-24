@@ -10,9 +10,9 @@
   });
 </script>
 
-<div class="row">
+<div class="mt-3 row">
   {#each $product as pro}
-    <div class="col-12 col-mb-4">
+    <div class="col-12 col-md-4">
       <Products {pro} />
     </div>
   {/each}

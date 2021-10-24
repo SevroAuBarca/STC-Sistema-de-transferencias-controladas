@@ -5,6 +5,7 @@
   import Navbar from "./components/Navbar.svelte";
   import { routes } from "./routes/router";
   import { user } from "./stores/authStore";
+  import Cart from "./components/Cart.svelte";
 
   onMount(() => {
     onAuthStateChanged(auth, (userLog) => {
@@ -16,5 +17,9 @@
 
 <div>
   <Navbar />
+  <div class="container text-center">
+    <hr />
+    <Cart />
+  </div>
   <Router {routes} />
 </div>
